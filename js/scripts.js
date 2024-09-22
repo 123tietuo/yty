@@ -52,3 +52,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const resumeDom = document.querySelector('.resume')
+resumeDom.addEventListener('click', ()=>{
+    window.open('https://www.tingyuanyao.com/_files/ugd/59f971_fb57b410b7724273bdb95d7036f6ba5b.pdf')
+})

@@ -35,40 +35,49 @@
                     <li class="nav-item"><a class="nav-link" i18n="i18n.About" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" i18n="i18n.Projects" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" i18n="i18n.Contact" href="#signup">Contact</a></li>
-                    <li class="nav-item change-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="white" d="M14.022 7h1a1 1 0 0 1 1 1v1a1 1 0 0 0 2 0V8a3.003 3.003 0 0 0-3-3h-1a1 1 0 0 0 0 2m-4 9h-1a1 1 0 0 1-1-1v-1a1 1 0 0 0-2 0v1a3.003 3.003 0 0 0 3 3h1a1 1 0 0 0 0-2m11-1a1 1 0 0 0 0-2h-3v-.5a1 1 0 0 0-2 0v.5h-3a1 1 0 0 0 0 2h5.184a6.7 6.7 0 0 1-1.225 2.527a6.7 6.7 0 0 1-.63-.983a1 1 0 1 0-1.779.912a8.7 8.7 0 0 0 .96 1.468a6.6 6.6 0 0 1-2.426 1.099a1 1 0 0 0 .427 1.954a8.6 8.6 0 0 0 3.445-1.622a8.7 8.7 0 0 0 3.469 1.622a1 1 0 1 0 .43-1.954a6.7 6.7 0 0 1-2.446-1.09A8.74 8.74 0 0 0 20.244 15Zm-11.97-3.757a1 1 0 0 0 1.94-.486l-1.757-7.03a2.281 2.281 0 0 0-4.426 0l-1.757 7.03a1 1 0 0 0 1.94.486L5.552 9h2.94ZM6.052 7l.698-2.787a.291.291 0 0 1 .544 0L7.991 7Z"/></svg></li>
+                    <button type="button" class="change-icon btn btn-sm btn-dark"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                            <path fill="white"
+                                d="M14.022 7h1a1 1 0 0 1 1 1v1a1 1 0 0 0 2 0V8a3.003 3.003 0 0 0-3-3h-1a1 1 0 0 0 0 2m-4 9h-1a1 1 0 0 1-1-1v-1a1 1 0 0 0-2 0v1a3.003 3.003 0 0 0 3 3h1a1 1 0 0 0 0-2m11-1a1 1 0 0 0 0-2h-3v-.5a1 1 0 0 0-2 0v.5h-3a1 1 0 0 0 0 2h5.184a6.7 6.7 0 0 1-1.225 2.527a6.7 6.7 0 0 1-.63-.983a1 1 0 1 0-1.779.912a8.7 8.7 0 0 0 .96 1.468a6.6 6.6 0 0 1-2.426 1.099a1 1 0 0 0 .427 1.954a8.6 8.6 0 0 0 3.445-1.622a8.7 8.7 0 0 0 3.469 1.622a1 1 0 1 0 .43-1.954a6.7 6.7 0 0 1-2.446-1.09A8.74 8.74 0 0 0 20.244 15Zm-11.97-3.757a1 1 0 0 0 1.94-.486l-1.757-7.03a2.281 2.281 0 0 0-4.426 0l-1.757 7.03a1 1 0 0 0 1.94.486L5.552 9h2.94ZM6.052 7l.698-2.787a.291.291 0 0 1 .544 0L7.991 7Z" />
+                        </svg></button>
+                    <!-- <button type="button" class="btn ">Dark</button> -->
+                    <!-- <li class="nav-item change-icon"></li> -->
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="masthead masthead-c">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
                     <h1 class="mx-auto my-0 text-uppercase" i18n="i18n.name">Tingyuan Yao</h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5" i18n="i18n.editor">Editor</h2>
-                    <a class="btn btn-primary transparent" href="#about">Get Started</a>
+                    <!-- <a class="btn btn-primary transparent" href="#about">Get Started</a> -->
                 </div>
             </div>
         </div>
-        <video controls muted autoplay loop class="img-fluid video-1 mb-3 mb-lg-0"
+        <video muted autoplay loop class="img-fluid video-1 mb-3 mb-lg-0"
             src="https://video.wixstatic.com/video/59f971_b529299a05e4430e9bc11ac873696e6e/1080p/mp4/file.mp4"></video>
     </header>
     <!-- About-->
-    <section class="about-section text-center" id="about">
+    <section class="about-section text-center bg-pic" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                    <p class="text-white-50">
-                        Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now,
-                        simply download the template on
-                        <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                        The theme is open source, and you can use it for any purpose, personal or commercial.
+                    <h2 class="text-white mb-4"  i18n="i18n.About" >About</h2>
+                    <p i18n="i18n.resumeInfo1" class="text-white-50">
+                        Hello! I'm Tingyuan Yao, just a guy who loves to piece together stories frame by frame. My work
+                        is all about finding the rhythm in the footage and crafting a tale that feels genuine and
+                        engaging. I'm constantly learning and experimenting because each video is a new adventure. Let's
+                        tell a story that feels real and keeps the audience hooked!
                     </p>
+                    <p i18n="i18n.resumeInfo2" class="text-white-50">For more information please download my resume!</p>
+                    <div class="col-auto"><button class="resume btn btn-primary">DOWNLOAD</button></div>
+                  
                 </div>
             </div>
-            <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+            <img class="img-fluid yty-pic" src="https://static.wixstatic.com/media/59f971_0f62a4eadbb840ba9ed779bf7663a02c~mv2.jpg/v1/fill/w_940,h_705,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%E7%85%A7%E7%89%87.jpg" alt="..." />
         </div>
     </section>
     <!-- Projects-->
@@ -225,7 +234,7 @@
         <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
